@@ -9,7 +9,7 @@ USB sharing allow you to connect a USB device to a virtual machine. It is suppor
 **iOS**{: .label .label-blue } Only jailbroken or exploit-based installs of UTM support USB sharing. UTM SE does not support USB sharing.
 
 {: .note }
-Due to the way macOS/iOS handles USB capturing (without custom kernel drivers), it is not possible to get a proper hardware reset on the connected device. The device will always be configured on the host before a software reset is sent to the device and it is seen by the virtual machine. This means that many devices will not work properly when captured by the virtual machine.
+Duee to the way macOS/iOS handles USB capturing (without custom kernel drivers), it is not possible to get a proper hardware reset on the connected device. The device will always be configured on the host before a software reset is sent to the device and it is seen by the virtual machine. This means that many devices will not work properly when captured by the virtual machine.
 
 {: .note }
 Some devices cannot be captured including built-in Apple webcams and **iOS**{: .label .label-blue } some external flash drives.
